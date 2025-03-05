@@ -11,7 +11,7 @@
 
 ## Overview
 
-**Arsenal** is [Clustr's](https://clustr.network) lightweight, unified AI agent framework, designed to help you build intelligent applications effortlessly. With its powerful API, you can seamlessly interact with multiple AI models, execute complex skills. 
+**Arsenal** is [Clustr's](https://clustr.network) lightweight, unified AI agent framework, designed to help you build intelligent applications effortlessly. With its powerful API, you can seamlessly interact with multiple AI models, execute complex skills.  
 
 ## Key Features
 
