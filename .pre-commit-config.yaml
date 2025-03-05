@@ -1,0 +1,53 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+        files: ^src/
+      - id: end-of-file-fixer
+        files: ^src/
+      - id: check-yaml
+      - id: check-added-large-files
+        args: [--maxkb=500]
+        exclude: >
+          (?x)^(
+            \.mypy_cache/|
+            \.venv/|
+            \.env/|
+            .*\.mp4$|
+            .*\.png$|
+            .*\.so$|
+            .*\.map$|
+            .*RECORD$|
+            .*\.js$|
+            .*\.json$|
+            .*\.pyc$
+          )
+
+  - repo: https://github.com/psf/black
+    rev: 24.3.0
+    hooks:
+      - id: black
+        files: ^src/
+
+  - repo: https://github.com/pycqa/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        files: ^src/
+
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.3.0
+    hooks:
+      - id: ruff
+        args: [--fix]
+        files: ^src/
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.9.0
+    hooks:
+      - id: mypy
+        name: mypy
+        files: ^src/
+        additional_dependencies: [typing_extensions]
+        args: ["--ignore-missing-imports", "--follow-imports=skip", "--disable-error-code=no-redef"]
