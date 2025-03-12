@@ -7,7 +7,7 @@
 <!-- [![PyPI version](https://img.shields.io/pypi/v/arsenalpy.svg)](https://pypi.org/project/arsenalpy/)
 [![Python](https://img.shields.io/pypi/pyversions/arsenalpy.svg)](https://pypi.org/project/arsenalpy/)
 [![License](https://img.shields.io/github/license/clustrlabs/arsenalpy.svg)](https://github.com/clustrlabs/arsenalpy/blob/main/LICENSE)
-[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://clustrlabs.github.io/arsenalpy/) -->
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://arsenalpy.clustr.network/) -->
 
 ## Overview
 
@@ -89,11 +89,11 @@ if __name__ == "__main__":
 
 ## Documentation
 
-For detailed documentation, examples, and API reference, visit our [official documentation](https://clustrlabs.github.io/arsenalpy/).
+For detailed documentation, examples, and API reference, visit our [official documentation](https://arsenalpy.clustr.network/).
 
 ## Examples
 
-Find more examples in our [examples directory](https://github.com/clustrlabs/arsenalpy/tree/main/examples) or check the [documentation examples section](https://clustrlabs.github.io/arsenalpy/examples/).
+Find more examples in our [examples directory](https://github.com/clustrlabs/arsenalpy/tree/main/examples) or check the [documentation examples section](https://arsenalpy.clustr.network/examples/).
 
 ## Contributing
 
